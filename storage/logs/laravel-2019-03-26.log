@@ -1,0 +1,4 @@
+[2019-03-26 07:34:56] production.ERROR: App\Providers\MacroServiceProvider::register(): Failed opening required 'C:\xampp\htdocs\md\solution/app/Logic/Macros/HtmlMacros.php' (include_path='C:\xampp\php\PEAR') {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): App\\Providers\\MacroServiceProvider::register(): Failed opening required 'C:\\xampp\\htdocs\\md\\solution/app/Logic/Macros/HtmlMacros.php' (include_path='C:\\xampp\\php\\PEAR') at C:\\xampp\\htdocs\\md\\solution\\app\\Providers\\MacroServiceProvider.php:26)
+[stacktrace]
+#0 {main}
+"} 

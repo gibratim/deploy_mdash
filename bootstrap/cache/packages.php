@@ -1,4 +1,54 @@
 <?php return array (
+  'jeremykenedy/laravel-https' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'jeremykenedy\\LaravelHttps\\LaravelHttpsServiceProvider',
+    ),
+  ),
+  'jeremykenedy/laravel-phpinfo' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'jeremykenedy\\LaravelPhpInfo\\LaravelPhpInfoServiceProvider',
+    ),
+  ),
+  'jeremykenedy/uuid' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'jeremykenedy\\Uuid\\UuidServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Uuid' => 'jeremykenedy\\Uuid\\Uuid',
+    ),
+  ),
+  'rap2hpoutre/laravel-log-viewer' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
+    ),
+  ),
+  'laravel/socialite' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
+    ),
+  ),
+  'socialiteproviders/manager' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'SocialiteProviders\\Manager\\ServiceProvider',
+    ),
+  ),
   'barryvdh/laravel-debugbar' => 
   array (
     'providers' => 
@@ -46,6 +96,13 @@
       'Image' => 'Intervention\\Image\\Facades\\Image',
     ),
   ),
+  'jeremykenedy/laravel-exception-notifier' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'jeremykenedy\\laravelexceptionnotifier\\LaravelExceptionNotifier',
+    ),
+  ),
   'jaybizzle/laravel-crawler-detect' => 
   array (
     'providers' => 
@@ -57,20 +114,6 @@
       'Crawler' => 'Jaybizzle\\LaravelCrawlerDetect\\Facades\\LaravelCrawlerDetect',
     ),
   ),
-  'jeremykenedy/laravel-exception-notifier' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'jeremykenedy\\laravelexceptionnotifier\\LaravelExceptionNotifier',
-    ),
-  ),
-  'jeremykenedy/laravel-https' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'jeremykenedy\\LaravelHttps\\LaravelHttpsServiceProvider',
-    ),
-  ),
   'jeremykenedy/laravel-logger' => 
   array (
     'providers' => 
@@ -78,11 +121,11 @@
       0 => 'jeremykenedy\\LaravelLogger\\LaravelLoggerServiceProvider',
     ),
   ),
-  'jeremykenedy/laravel-phpinfo' => 
+  'eklundkristoffer/seedster' => 
   array (
     'providers' => 
     array (
-      0 => 'jeremykenedy\\LaravelPhpInfo\\LaravelPhpInfoServiceProvider',
+      0 => 'Seedster\\SeedsterServiceProvider',
     ),
   ),
   'jeremykenedy/laravel-roles' => 
@@ -97,28 +140,6 @@
     'providers' => 
     array (
       0 => 'jeremykenedy\\laravel2step\\laravel2stepServiceProvider',
-    ),
-  ),
-  'jeremykenedy/uuid' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'jeremykenedy\\Uuid\\UuidServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Uuid' => 'jeremykenedy\\Uuid\\Uuid',
-    ),
-  ),
-  'laravel/socialite' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
     ),
   ),
   'laravel/tinker' => 
@@ -156,20 +177,6 @@
     'providers' => 
     array (
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    ),
-  ),
-  'rap2hpoutre/laravel-log-viewer' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
-    ),
-  ),
-  'socialiteproviders/manager' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'SocialiteProviders\\Manager\\ServiceProvider',
     ),
   ),
 );
